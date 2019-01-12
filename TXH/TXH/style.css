@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+
+}
+.form-group:after{
+	content: "";
+	clear: both;
+	display: block;
+
+}
+.form-group{
+	margin-bottom: 20px;
+	
+}
+
+.col30{
+	float: left;
+	width: 30%;
+
+}
+.col70{
+	float: left;
+	width: 70%;
+
+}
+.form-control{
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 5px ;
+}
+.container{
+	width: 750px;
+	margin: auto;
+
+}
+.control-label{
+	font-weight: bold;
+	text-align: right;
+	padding: 5px;
+
+}
