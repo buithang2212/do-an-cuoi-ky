@@ -1,0 +1,18 @@
+.owl-banner .owl-prev,
+.owl-banner .owl-next{
+	position: absolute;
+	/* transform: translateY(-50%) !important; */
+	top: 50%;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	border-radius: 50% !important;
+	background: rgba(255, 255, 255, .7) !important;
+	outline: none !important;
+}
+.owl-banner .owl-prev{
+	left: 20px;
+}
+.owl-banner .owl-next{
+	right: 20px;
+}
