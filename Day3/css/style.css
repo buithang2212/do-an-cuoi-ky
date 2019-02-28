@@ -7,7 +7,7 @@ html,body{
 	max-width: 100%;
 }
 .navbar-inverse{
-	background:black;
+	background:deeppink;
 	padding: 5px 0px;
 	text-align: center;
 	border-image: none;
@@ -24,7 +24,7 @@ html,body{
 }
 .navbar-nav a:hover{
 	text-decoration: none;
-	background-color: lightgreen; 
+	background-color: lightgreen;
 	color:white;
 }
 .wallaper{
@@ -64,4 +64,22 @@ html,body{
 .fiximg{
 	height: 250px;
 	overflow: hidden;
+}
+.owl-banner .owl-prev,
+.owl-banner .owl-next{
+	position: absolute;
+	/* transform: translateY(-50%) !important; */
+	top: 50%;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	border-radius: 50% !important;
+	background: rgba(255, 255, 255, .7) !important;
+	outline: none !important;
+}
+.owl-banner .owl-prev{
+	left: 20px;
+}
+.owl-banner .owl-next{
+	right: 20px;
 }
