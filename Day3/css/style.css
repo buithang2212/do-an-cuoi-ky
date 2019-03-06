@@ -180,6 +180,22 @@ body{
 h1{
 	padding: 10px;
 }
+h3{
+	color: pink;
+}
 .new li{
 	text-align: center;
+}
+.login-form{
+	padding-top: 150px;
+	margin: auto;
+}
+.list-unstyled li{
+	padding: 10px;
+}
+.list-unstyled li a{
+	color: white;
+}
+.images{
+	padding: 5px;
 }

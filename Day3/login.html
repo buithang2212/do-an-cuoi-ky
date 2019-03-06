@@ -1,75 +1,249 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>document</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/tiltedpage-scroll.css">
-    <link rel="stylesheet" type="text/css" href="css/hover-min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <title>dlogin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/tiltedpage-scroll.css">
+  <link rel="stylesheet" type="text/css" href="css/hover-min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <!-- Animate -->
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Animate -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
- 
-
-
-<div class="container">
-  <main class="login-form">
-    <div class="cotainer">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-body">
-                        <form action="" method="">
-                            <div class="form-group row">
-                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Email :</label>
-                                <div class="col-md-6">
-                                    <input type="text" id="email_address" class="form-control" name="email-address" required autofocus>
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <label for="password" class="col-md-4 col-form-label text-md-right">Mật khẩu :</label>
-                                <div class="col-md-6">
-                                    <input type="password" id="password" class="form-control" name="password" required>
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <div class="col-md-6 offset-md-4">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox" name="remember"> Lưu mật khẩu :
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Đăng Nhập
-                                </button>
-                                <a href="#" class="btn btn-link">
-                                    Quên mật khẩu ?
-                                </a>
-                            </div>
+     <div class="header-menu">
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container">
+             
+                <div class="navbar-header ">
+                  <a href="#" class="navbar-brand">
+                        <img src="img/a.png" style="width: 80px; padding-bottom: 5px;">
+                    </a>
+                    
+                    <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand only-show-mobile  pull-right"><span
+                        class="glyphicon glyphicon-shopping-cart" style="color: white;"></span></a>
                     </div>
-                    </form>
+
+                    <div class="navbar-collapse collapse "  id="bs-example-navbar-collapse-1">
+                       
+
+                        <ul class="nav navbar-nav">
+                           <li>
+                             <form class="navbar  only-show-mobile" style="margin:auto;">
+                                <input type="text"  placeholder="tìm kiếm" class="formfornm">
+                                <button type="submit" class=""><i class="glyphicon glyphicon-search"></i></button>
+                            </form>
+                        </li>
+                        <li>
+                            <a href="file:///C:/Users/Duc%20Thang/Desktop/study/Day3/day3.html" class="hvr-underline-from-center">Trang Chủ</a>
+
+                        </li>
+
+                        <li>
+                            <a href="#" data-toggle="dropdown" class="hvr-underline-from-center">Danh Mục <span
+                                class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Nước hoa</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">Kem dưỡng</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">Son môi</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                </ul>
+                            </li>
+
+                            <li >
+                                <a href="#" class="hvr-underline-from-center" style="color: black">Liên Hệ</a>
+                            </li>
+                            <li class="only-show-mobile">
+                                <a href="login.html" class="hvr-underline-from-center" style="color: black">Đăng nhập</a>
+                            </li>
+                            <li class="only-show-mobile">
+                              <a href="register.html" class="hvr-underline-from-center" style="color: black">Đăng kí</a>
+                              
+                          </li>
+                          
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm" >
+                        <li>
+                            <form class="navbar-form pull-right">
+                                <input type="text" style="width: 200px;" placeholder="Tìm kiếm">
+                                <button type="submit" class=""><i class="glyphicon glyphicon-search"></i></button>
+                            </form>
+                        </li>
+                        <li>
+                            <a href="cart.html" class="hvr-underline-from-center">Giỏ hàng <span
+                                class="glyphicon glyphicon-shopping-cart" style="color: white;"></span></a>
+                            </li>
+                            <li>
+                                <a href="register.html" class="hvr-underline-from-center">Đăng ký</a>
+                            </li>
+                            <a href="login.html" class="navbar-btn navbar-right btn-dangnhap">Đăng nhập</a>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
-    </div>
+
+
+  <div class="container">
+    <main class="login-form">
+      <div class="cotainer">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-body">
+                <form action="" method="">
+                  <div class="form-group row">
+                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Email :</label>
+                    <div class="col-md-6">
+                      <input type="text" id="email_address" class="form-control" name="email-address" required autofocus>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="password" class="col-md-4 col-form-label text-md-right">Mật khẩu :</label>
+                    <div class="col-md-6">
+                      <input type="password" id="password" class="form-control" name="password" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-6 offset-md-4">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" name="remember"> Lưu mật khẩu
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 offset-md-4">
+                    <button type="submit" class="btn btn-primary">
+                      Đăng Nhập
+                    </button>
+                    <a href="#" class="btn btn-link">
+                      Quên mật khẩu ?
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-</main>
+  </main>
 </div>
+<footer class="page-footer font-small indigo" style="background-color: #DDDDDD">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
+
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Face Book</a>
+                </li>
+                <li>
+                  <a href="#!">Very long link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Very long link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Very long link 4</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
+
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
+
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+              </ul>
+
+            </div>
+            <!-- Grid column -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+              <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            </div>
+
+
+          </div>
+
+
+        </footer>
 
 </body>
 
