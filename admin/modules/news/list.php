@@ -18,15 +18,15 @@ $page = ceil($total/$limit);
 $sql = "Select * from news order by news_add_date DESC,news_id DESC Limit $start,$limit 	";
 
 
-// if (isset($_POST['search_key'])) {
-// 	$search_key = $_POST['search_key'];
-// 	$sql = "Select * from product WHERE pro_name LIKE '%$search_key%'";
-// }
+ if (isset($_POST['search_key'])) {
+ 	$search_key = $_POST['search_key'];
+ 	$sql = "Select * from product WHERE pro_name LIKE '%$search_key%'";
+ }
 
-// if (isset($_POST['cat_id'])) {
-// 	$cat_id = $_POST['cat_id'];
-// 	$sql = "Select * from product WHERE cat_id = $cat_id";
-// }
+ if (isset($_POST['cat_id'])) {
+ 	$cat_id = $_POST['cat_id'];
+ 	$sql = "Select * from product WHERE cat_id = $cat_id";
+ }
 
 // kiem tra khi nhan nut search
 if (!empty($_POST)) {

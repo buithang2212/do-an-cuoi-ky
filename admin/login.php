@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
     $password=md5($_POST['password']);
 
 
-    $conn = mysqli_connect('localhost','root','','project');
+    $conn = mysqli_connect('localhost','root','','do_an_ky_1');
     mysqli_set_charset($conn,'utf8');
     $sql="select * from user where email='$email' AND password ='$password' AND status=2 limit 1";
     $res_user=mysqli_query($conn,$sql);

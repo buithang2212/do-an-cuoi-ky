@@ -129,3 +129,4 @@ $action = isset($_GET['action']) ? $_GET['action'] : 'list'; ?>
 			</div>			
 		</div>
 		<?php include 'footer.php' ?>
+        </head>
